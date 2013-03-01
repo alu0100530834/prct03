@@ -1,15 +1,15 @@
 \documentclass[a4paper,12pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
 \begin{document}
-
 \title{Titulo del articulo}
-\author{Nombre y Apellido}\\
+\author{Lorena Diaz Morales \\
           Tecnicas experimentales~\footnote{universidad de la laguna}
                   }
-\date{\today\}
+\date{\today}
 \maketitle
 \begin{abstract}
- en \latex{}~cite{Lam:86} es sencillo escribir expresiones
+ en \LaTeX{}~\cite{Lam:86} es sencillo escribir expresiones
  matematicas como $a=\sum_{i=1}^{3}$
  y deben ser escritas entre los simbolos \$.
  Los superindices se obtienen con el simbolo \^{}, y
@@ -39,11 +39,13 @@ En el caso de que se quieran utilizar comillas dobles se han de
 escribir dos caracteres 'comilla simple' seguidos, esto es,
 "comillas dobles".
 
+\includegraphics[width=0.5\textwidth]{imagen1.eps}
+
 También se ha de tener cuidado con los guiones: Se utiliza un unico
 guión para la separación de silabas, mientras que se utilizan 
 tres guiones seguidos para producir un guión de los que se usan
 como signo de puntuación --- como en esta oración
-\bigskipa
+\bigskip
 \begin{tabular}{|l| c |c|}
 \hline
   Nombre & Edad & Nota\\ \hline
